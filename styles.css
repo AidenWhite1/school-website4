@@ -1,0 +1,124 @@
+body{
+    background-color: red;
+    text-align: left;
+}
+.set{
+    margin: 30% auto;
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 0px black;
+
+}
+
+button{
+inline-size: auto;
+text-align: left;
+border: 10px solid black;
+text-align: left;
+text-shadow: black;
+}
+h1{
+  text-align: center;
+  background-color: white;
+}
+.set{
+  margin: auto;
+  text-align: center;
+}
+
+head{
+    text-align: center;
+    border: black;
+    border-radius: 10px;
+    font-style: italic;
+}
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+title{
+  text-align: top;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.information{
+  text-align: left;
+  font-size: larger;
+}
+.notes{
+  align-items: right;
+  align-content: center;
+  font-size: x-large;
+}
+ul{
+  background-color: #f2f2f2;
+  font-size: large;
+  margin-top: 45px;
+  text-align: center;
+  text-decoration-style: bold;
+  outline-style: double;
+  color: red;
+  align-items: center;
+  display: inline-block;
+  margin-left: 750px;
+  margin: relative;
+}

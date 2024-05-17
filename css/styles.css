@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+    text-align: left;
+}
+.set{
+    margin: 30% auto;
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 0px black;
+
+}
+.slideshow-container{
+max-width: 500px;
+position: relative;
+margin: auto;
+}
+.btn{
+inline-size: auto;
+}
+img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+p{
+    text-align: middle left;
+}
